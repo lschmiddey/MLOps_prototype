@@ -29,4 +29,4 @@ jobs:
         docker build -t hello_world_test:0.0.1 .
     - name: docker push
       run: |
-        docker push hello_world_test:0.0.1
+        docker push lasse1990/hello_world_test:0.0.1
