@@ -10,6 +10,6 @@ WORKDIR /src
 
 RUN pip install -r requirements.txt 
 
-COPY src/* /src
+COPY src/* /src/
 
 CMD [ "python", "./hello.py"]
