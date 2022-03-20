@@ -1,4 +1,4 @@
-name: Azure Python 3.8
+name: Docker build and push
 on: [push]
 jobs:
   build:
