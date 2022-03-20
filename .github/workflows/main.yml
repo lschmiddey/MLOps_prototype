@@ -24,3 +24,9 @@ jobs:
     - name: Test
       run: |
         make test
+    - name: docker build
+      run: |
+        docker build ./src -t hello_world_test:0.0.1
+    - name: docker push
+      run: |
+        docker push hello_world_test:0.0.1
